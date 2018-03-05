@@ -1,0 +1,47 @@
+﻿  Treenode.cpp
+  Texture2D.cpp
+  Terrain.cpp
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\terrain.cpp(41): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\terrain.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  ObjSceneObject.cpp
+  Player.cpp
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\player.cpp(59): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\player.cpp(79): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  ModelLoader.cpp
+  main.cpp
+  helloGl.cpp
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(6): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(23): warning C4305: '=': truncation from 'double' to 'GLfloat'
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(24): warning C4305: '=': truncation from 'double' to 'GLfloat'
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(25): warning C4305: '=': truncation from 'double' to 'GLfloat'
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(125): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(127): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(129): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(163): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(164): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\hellogl.cpp(165): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+  GLUTCallbacks.cpp
+  SceneNode.cpp
+e:\year 2\kamil chmielewski project\opengl\consoleapplication1\consoleapplication1\scenenode.cpp(80): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  MultipleObjects.cpp
+  Camera2.cpp
+  Generating Code...
+GLUTCallbacks.obj : error LNK2019: unresolved external symbol __imp_glutTimerFunc referenced in function "void __cdecl GLUTCallbacks::Timer(int)" (?Timer@GLUTCallbacks@@YAXH@Z)
+helloGl.obj : error LNK2001: unresolved external symbol __imp_glutTimerFunc
+GLUTCallbacks.obj : error LNK2019: unresolved external symbol __imp_glutGet referenced in function "void __cdecl GLUTCallbacks::Timer(int)" (?Timer@GLUTCallbacks@@YAXH@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function "public: void __cdecl helloGl::InitGL(int,char * * const)" (?InitGL@helloGl@@QEAAXHQEAPEAD@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function "public: void __cdecl helloGl::InitGL(int,char * * const)" (?InitGL@helloGl@@QEAAXHQEAPEAD@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function "public: __cdecl helloGl::helloGl(int,char * * const)" (??0helloGl@@QEAA@HQEAPEAD@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "public: void __cdecl helloGl::Update(void)" (?Update@helloGl@@QEAAXXZ)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "public: void __cdecl helloGl::Display(void)" (?Display@helloGl@@QEAAXXZ)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function "public: void __cdecl helloGl::InitGL(int,char * * const)" (?InitGL@helloGl@@QEAAXHQEAPEAD@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function "public: void __cdecl helloGl::InitGL(int,char * * const)" (?InitGL@helloGl@@QEAAXHQEAPEAD@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function "public: void __cdecl helloGl::InitGL(int,char * * const)" (?InitGL@helloGl@@QEAAXHQEAPEAD@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutMotionFunc referenced in function "public: void __cdecl helloGl::InitGL(int,char * * const)" (?InitGL@helloGl@@QEAAXHQEAPEAD@Z)
+helloGl.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+helloGl.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+helloGl.obj : error LNK2019: unresolved external symbol __imp_glutBitmapString referenced in function "public: void __cdecl helloGl::DrawString(char const *,struct Vector3 const *,struct Colour const *)" (?DrawString@helloGl@@QEAAXPEBDPEBUVector3@@PEBUColour@@@Z)
+Texture2D.obj : error LNK2019: unresolved external symbol SOIL_load_OGL_texture referenced in function "public: int __cdecl Texture2D::LoadTexture(char const *)" (?LoadTexture@Texture2D@@QEAAHPEBD@Z)
+E:\Year 2\Kamil Chmielewski Project\OpenGl\ConsoleApplication1\/External Libraries\SOIL.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+freeglut.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+E:\Year 2\Kamil Chmielewski Project\OpenGl\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 15 unresolved externals
